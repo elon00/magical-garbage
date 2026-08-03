@@ -1,0 +1,88 @@
+QuantumShield Premium Pitch Deck - Bilingual Technical Summary (English & Hindi)
+
+=============================================================================
+1. The Core Problem: The Quantum Threat (Tabs 02 & 03)
+=============================================================================
+[ENG] For English Audiences (Developers & Users):
+- Classical cryptography relies on the difficulty of composite modulus factorization.
+- However, Shor's Algorithm solves this exponentially faster, putting our current security at risk.
+- Our Threat Matrix models Q-Day timelines, proving that polynomial time complexity shatters RSA and ECC, making an immediate migration to Post-Quantum Cryptography (PQC) absolutely critical.
+
+[HIN] For Hindi Audiences (डेवलपर्स और यूजर्स के लिए):
+- आज की पुरानी सुरक्षा तकनीकें (RSA/ECC) इस बात पर टिकी हैं कि बड़े नंबर्स को तोड़ना मुश्किल है।
+- लेकिन क्वांटम कंप्यूटर्स में इस्तेमाल होने वाला 'Shor's Algorithm' इसे बहुत तेज़ी से तोड़ सकता है, जिससे हमारा सारा डेटा खतरे में है।
+- हमारा 'थ्रेट मैट्रिक्स' यह साबित करता है कि क्वांटम कंप्यूटर्स आज के तालों को आसानी से तोड़ देंगे, इसलिए हमें तुरंत नई क्वांटम-प्रूफ सुरक्षा (PQC) अपनानी होगी।
+
+=============================================================================
+2. Testing & Benchmarking: Sandbox & Benchmarks (Tabs 01 & 04)
+=============================================================================
+[ENG] For English Audiences:
+- The Key Exchange Sandbox features an interactive side-by-side simulation comparing classical RSA-2048 against the new NIST FIPS 203 ML-KEM-768 algorithm.
+- The Constant-Time Benchmarks module resolves engineering challenges related to CPU memory constraints during the transition to post-quantum signatures.
+- It provides microsecond precision benchmarking and overhead comparisons for ML-DSA, SLH-DSA, and RSA.
+
+[HIN] For Hindi Audiences:
+- 'की एक्सचेंज सैंडबॉक्स' में हम लाइव देख सकते हैं कि पुरानी RSA-2048 तकनीक के मुकाबले नई NIST ML-KEM-768 तकनीक कैसे बेहतर काम करती है।
+- जब हम नई सिक्योरिटी पर जाते हैं तो CPU मेमोरी पर लोड पड़ता है; हमारा 'बेंचमार्क' मॉड्यूल इस तकनीकी समस्या को सुलझाता है।
+- यह सिस्टम माइक्रोसेकंड की सटीकता के साथ मापता है कि नए एल्गोरिदम (ML-DSA, SLH-DSA) पुराने सिस्टम्स से कितने तेज़ और हल्के हैं।
+
+=============================================================================
+3. Automated Upgrades: AI Migration Audit Engine (Tab 05)
+=============================================================================
+[ENG] For English Audiences:
+- This engine automates the manual, error-prone process of identifying hardcoded legacy cryptography in massive enterprise codebases.
+- It uses intelligent server-side Gemini models to detect outdated MD5, SHA-1, and RSA calls.
+- With a One-Click Refactor, it provides instant replacement with NIST-compliant PQC snippets using Abstract Syntax Tree (AST) generation.
+
+[HIN] For Hindi Audiences:
+- बड़े सॉफ्टवेयर्स में पुराने और कमजोर कोड को हाथ से ढूँढना मुश्किल होता है; यह इंजन इस काम को पूरी तरह से ऑटोमेटिक कर देता है।
+- यह स्मार्ट 'Gemini AI' का इस्तेमाल करके कोड में छिपे पुराने MD5 या RSA को खुद पहचान लेता है।
+- सिर्फ एक क्लिक (One-Click Refactor) में, यह पुराने कोड को हटाकर नया और सुरक्षित (NIST-compliant) कोड डाल देता है।
+
+=============================================================================
+4. The Secure Environment: Post-Quantum Ecosystem (Tabs 06, 07, 12)
+=============================================================================
+[ENG] For English Audiences:
+- PQC Encrypted Vault: Secures files against attacks using Hybrid ML-KEM-768 lattice encapsulation combined with AES-256-GCM.
+- Payment Gateway: Ensures multi-currency checkouts are verified via ML-DSA-65 signatures, eliminating the risk of on-chain signature spoofing.
+- Crypto Exchange: Features live spot order books modeling Uniswap v3 routing with instant, PQC-protected token swapping.
+
+[HIN] For Hindi Audiences:
+- PQC एन्क्रिप्टेड वॉल्ट: यह एक डिजिटल तिजोरी है जो आपकी फाइल्स को आधुनिक ML-KEM-768 और AES-256-GCM के सुरक्षा घेरे में रखती है।
+- पेमेंट गेटवे: पैसों के लेन-देन को ML-DSA-65 सिग्नेचर से सुरक्षित किया जाता है, ताकि कोई भी हैकर जाली सिग्नेचर बनाकर फ्रॉड न कर सके।
+- क्रिप्टो एक्सचेंज: इसमें Uniswap v3 की तरह लाइव ट्रेडिंग होती है, जहाँ हर लेन-देन क्वांटम-प्रूफ तकनीक से सुरक्षित होता है।
+
+=============================================================================
+5. Training & Research: Cryptanalysis Tools (Tabs 08, 09, 10)
+=============================================================================
+[ENG] For English Audiences:
+- The Crypto Transformer acts as a dedicated SHA-224 calculator to audit padding oracles and length extension attack vulnerabilities.
+- The Agentic CTF Arena provides interactive challenges covering LLL lattice reduction and side-channel timing analysis to practically train security engineers.
+- The KeyHunt & Cellular Automata module harnesses emergent cellular automata entropy for cryptographic randomness.
+
+[HIN] For Hindi Audiences:
+- 'क्रिप्टो ट्रांसफॉर्मर' टूल सिस्टम में मौजूद कमियों (जैसे padding oracles) को पकड़ने का काम करता है।
+- 'एजेंटिक CTF एरीना' एक ट्रेनिंग ग्राउंड है जहाँ सिक्योरिटी इंजीनियर्स हैकिंग के हमलों को रोकने की प्रैक्टिकल ट्रेनिंग लेते हैं।
+- 'KeyHunt' मॉड्यूल सिस्टम के लिए एकदम रैंडम और सुरक्षित पासवर्ड (entropy) बनाने का काम करता है जिसे क्रैक करना नामुमकिन है।
+
+=============================================================================
+6. Automation at Scale: The Agency & Omniversal Magic Box (Tabs 11, 13)
+=============================================================================
+[ENG] For English Audiences:
+- The Agency: A multi-agent autonomous AI workforce hub featuring over 230 deployed AI agents. These elite teams autonomously audit, refactor, and test cryptographic systems entirely in parallel.
+- Omniversal Magic Box: A unified supreme control interface that translates high-level natural language desires into execution across both software workflows and physical edge hardware.
+
+[HIN] For Hindi Audiences:
+- द एजेंसी: यह 230 से ज्यादा AI एजेंट्स (रोबोट्स) की एक डिजिटल फौज है। ये एजेंट्स एक साथ मिलकर सिस्टम का ऑडिट और टेस्टिंग करते हैं ताकि कंपनियों का काम रुके बिना सिक्योरिटी अपग्रेड हो सके।
+- ओम्निवर्सल मैजिक बॉक्स: यह एक मास्टर कंट्रोलर है; आप इसे अपनी आम भाषा में कोई भी काम करने को कहें, और यह सॉफ्टवेयर से लेकर फिजिकल हार्डवेयर तक सब कुछ खुद मैनेज कर लेगा।
+
+=============================================================================
+7. Future Generation: Agentic Quantum Algo Generator (Tab 14)
+=============================================================================
+[ENG] For English Audiences:
+- This module implements Quantum Kolmogorov-Arnold Networks (QKAN) using trainable B-splines and Projected Quantum Kernels (PQK) to eliminate barren plateaus.
+- It features Autonomous Export, which automatically synthesizes mathematical schematics and exports telemetry directly to platforms like PennyLane, Qiskit, and Solidity.
+
+[HIN] For Hindi Audiences:
+- यह मॉड्यूल सबसे एडवांस क्वांटम नेटवर्क्स (QKAN और PQK) का इस्तेमाल करता है ताकि एआई मॉडल्स को बेहतर ढंग से ट्रेन किया जा सके।
+- यह सिस्टम खुद ही गणितीय सर्किट्स बनाता है और उन्हें सीधे Qiskit या Solidity जैसे डेवलपर प्लेटफॉर्म्स पर एक्सपोर्ट कर देता है, जिससे डेवलपर्स का बहुत समय बचता है।
