@@ -44,3 +44,4 @@ Are you an AI researcher, a quantum architect, a blockchain developer, or a spir
 Omniversal Open Source — Do what thou wilt with the code, provided it elevates the cosmos.
 Formula's for everything, 
 Omniversal code is cracked by the him....
+qmoosa-deep-tech-platform.netlify.app
