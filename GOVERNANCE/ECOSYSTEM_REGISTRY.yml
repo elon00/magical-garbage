@@ -1,0 +1,56 @@
+version: 1
+policy: the-creator-master-guardian
+updated: 2026-08-28
+
+# This registry is evidence-first. Classification is not a production certification.
+# A repository becomes PRODUCTION_READY only after all applicable critical gates have reproducible evidence.
+repositories:
+  - name: magical-garbage
+    class: governance_control_plane
+    status: implemented
+    readiness: governance_verified
+  - name: shor-x402
+    class: production_candidate
+    status: active_remediation
+    readiness: blocked_pending_evidence
+  - name: qmoosa-nexus-platform
+    class: production_candidate
+    status: governance_adopted
+    readiness: audit_required
+  - name: qmoosa-deep-tech-ai-quantum-platform
+    class: research_production_candidate
+    status: governance_adopted
+    readiness: audit_required
+  - name: martins-algorithm
+    class: research_production_candidate
+    status: governance_adopted
+    readiness: audit_required
+  - name: solana-ai
+    class: application_research
+    status: governance_adopted
+    readiness: audit_required
+  - name: Ton-Society-India
+    class: ecosystem_application
+    status: governance_adopted
+    readiness: audit_required
+  - name: web3citizen7
+    class: application
+    status: governance_adopted
+    readiness: audit_required
+  - name: multichain7
+    class: application
+    status: governance_adopted
+    readiness: audit_required
+  - name: blockchain-wallet-v4-frontend777
+    class: application
+    status: governance_adopted
+    readiness: audit_required
+
+critical_gates:
+  - security
+  - correctness
+  - evidence
+  - external_integration_truthfulness
+  - reproducible_tests
+
+completion_rule: "No repository is certified production-ready without evidence for every applicable critical gate."
