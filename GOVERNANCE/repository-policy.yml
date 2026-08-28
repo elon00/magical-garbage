@@ -1,0 +1,46 @@
+version: 1
+policy: the-creator-master-guardian
+mode: fail-closed
+
+status:
+  production_ready: requires_all_applicable_critical_gates
+  development_ready: noncritical_gaps_only
+  research_experiment: prototype_or_research_scope
+  learning_educational: educational_scope
+  archive_reference: historical_or_reference_scope
+  blocked_fail: critical_gate_failure
+
+forbidden_claims_without_evidence:
+  - production_ready
+  - audited
+  - secure
+  - quantum_hardware_execution
+  - post_quantum_secure
+  - verified_on_chain
+  - benchmarked
+  - decentralized
+  - autonomous
+
+required_evidence:
+  - commit_sha
+  - reproducible_test_or_workflow
+  - implementation_reference
+
+critical_gates:
+  - security
+  - correctness
+  - evidence
+  - external_integration_truthfulness
+
+safe_automation:
+  allow:
+    - governance_files
+    - audit_reports
+    - documentation_corrections
+    - ci_guardrails
+  require_review:
+    - business_logic_changes
+    - cryptography_changes
+    - blockchain_transaction_logic
+    - dependency_major_version_changes
+    - destructive_changes
