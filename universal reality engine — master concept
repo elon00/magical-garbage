@@ -1,0 +1,344 @@
+Of course. Here is the complete English version:
+
+---
+
+# UNIVERSAL REALITY ENGINE — MASTER CONCEPT
+
+The purpose of the **Universal Reality Engine** is to accurately determine, in any project:
+
+* What is **real**
+* What is a **simulation**
+* What is only a **claim**
+* What is implemented but not actually working
+* What is genuinely verified with evidence
+
+## Core Rule
+
+> **Never call anything VERIFIED unless there is sufficient evidence.**
+
+No AI-generated statement, documentation claim, UI percentage, marketing statement, or code comment should automatically be considered true.
+
+---
+
+## STEP 1 — Understand the Entire Project
+
+First, scan and understand the complete repository.
+
+Analyze:
+
+* Project vision
+* Mission
+* Goals
+* Architecture
+* Technology stack
+* Features
+* Modules
+* APIs
+* Smart contracts
+* Backend systems
+* Frontend systems
+* AI components
+* Blockchain integrations
+* Quantum or Post-Quantum Cryptography components
+* Security systems
+* Documentation
+* Existing tests
+* Deployment configuration
+
+Before making changes, understand what the project is actually supposed to do.
+
+---
+
+## STEP 2 — Identify Every Claim
+
+Find every important claim made by the project.
+
+Claims may appear in:
+
+* README files
+* Documentation
+* UI dashboards
+* Marketing content
+* Code comments
+* API descriptions
+* Architecture diagrams
+* Configuration files
+* Smart contracts
+* Project reports
+
+For every claim, ask:
+
+> **Does the actual implementation support this claim?**
+
+---
+
+## STEP 3 — Compare Claims With Reality
+
+Verify every important feature against multiple layers of evidence:
+
+### 1. Code Evidence
+
+Does the implementation actually exist?
+
+### 2. Runtime Evidence
+
+Does the feature actually execute?
+
+### 3. Test Evidence
+
+Do automated tests prove that it works?
+
+### 4. Integration Evidence
+
+Does it work with the real systems it claims to integrate with?
+
+### 5. External Evidence
+
+If the project claims blockchain, APIs, cryptography, cloud services, hardware, or other external systems, is there real evidence of those connections?
+
+---
+
+# STEP 4 — Separate Reality From Simulation
+
+Every component must be classified honestly.
+
+Possible classifications:
+
+### VERIFIED_REAL
+
+The feature exists, runs successfully, and has sufficient evidence.
+
+### PARTIALLY_REAL
+
+Some parts are real, but important components are incomplete or unverified.
+
+### SIMULATION
+
+The feature simulates behavior but does not perform real-world execution.
+
+### MOCK
+
+The feature uses fake or placeholder data for development purposes.
+
+### UNVERIFIED
+
+The feature may exist, but there is insufficient evidence to verify it.
+
+### CLAIM_ONLY
+
+The project claims the feature exists, but the implementation cannot support the claim.
+
+### FAILED
+
+The implementation was tested and failed.
+
+### BLOCKED
+
+The feature cannot currently be verified because of missing credentials, infrastructure, dependencies, permissions, or other external requirements.
+
+---
+
+# STEP 5 — Simulation-to-Reality Conversion
+
+When a simulation is discovered, do **not** automatically rename it as real.
+
+Instead, ask:
+
+> **Can this simulation technically be converted into a real implementation?**
+
+If the answer is **YES**:
+
+1. Identify what is currently simulated.
+2. Identify the real backend, API, blockchain, cryptographic system, hardware, or infrastructure required.
+3. Design a Reality Adapter.
+4. Implement the real integration.
+5. Run tests.
+6. Execute the real workflow.
+7. Collect evidence.
+8. Only then upgrade the status.
+
+If the answer is **NO**:
+
+The system must clearly remain labeled:
+
+> **SIMULATION**
+
+Never fake reality.
+
+---
+
+# STEP 6 — Build the Evidence System
+
+Every verified feature should have evidence.
+
+Possible evidence includes:
+
+* Passing automated tests
+* Integration test results
+* Runtime logs
+* API responses
+* Transaction hashes
+* Blockchain explorer verification
+* Cryptographic verification results
+* Deployment records
+* Reproducible commands
+* Security reports
+* Independent verification
+
+The system should follow this rule:
+
+> **No Evidence → No Verified Status**
+
+---
+
+# STEP 7 — Create a Deterministic Reality Score
+
+The Reality Score must not be based on AI opinion.
+
+It should be calculated using documented and reproducible criteria.
+
+For example, evaluate:
+
+* Implementation exists
+* Code quality
+* Tests pass
+* Runtime execution succeeds
+* Real integration works
+* Evidence exists
+* Security validation exists
+* Production readiness
+
+The score must always be traceable.
+
+The system must be able to answer:
+
+> **Why did this project receive this score?**
+
+Every percentage must have evidence behind it.
+
+No fake:
+
+* 95% Complete
+* 99% Production Ready
+* 100% Verified
+
+unless the calculation and evidence support it.
+
+---
+
+# STEP 8 — The Truth Gate
+
+Create a final deterministic **Truth Gate**.
+
+No AI, developer, agent, UI, or marketing system should be able to bypass it.
+
+The Truth Gate decides the final status based on evidence.
+
+Possible outputs:
+
+```text
+VERIFIED_REAL
+PARTIALLY_REAL
+SIMULATION
+MOCK
+UNVERIFIED
+CLAIM_ONLY
+FAILED
+BLOCKED
+```
+
+The Truth Gate must follow one absolute principle:
+
+> **Proof before Promotion.**
+
+---
+
+# STEP 9 — Generate the Reality Report
+
+Generate a complete Reality Report showing:
+
+### What is genuinely real
+
+### What is partially implemented
+
+### What is simulated
+
+### What is mocked
+
+### What is only claimed
+
+### What failed testing
+
+### What is blocked
+
+### What evidence exists
+
+### What evidence is missing
+
+### What can be converted from simulation to reality
+
+### What cannot currently be made real
+
+---
+
+# STEP 10 — Production Reality Check
+
+Before calling a project:
+
+* Production Ready
+* Market Ready
+* Enterprise Ready
+* Quantum Ready
+* Blockchain Ready
+* Secure
+* Decentralized
+
+the Universal Reality Engine must independently verify the relevant requirements.
+
+A project should never receive a production claim simply because:
+
+* The UI looks complete
+* The code exists
+* An AI says it works
+* A simulation works
+* A demo works
+
+Real production readiness requires real evidence.
+
+---
+
+# THE UNIVERSAL PRINCIPLE
+
+The Universal Reality Engine must treat **every AI equally**.
+
+It does not matter whether the output comes from:
+
+* Codex
+* Astra
+* Gemini
+* ChatGPT
+* Claude
+* Any autonomous agent
+* Any developer
+
+Every claim must pass through the same Evidence and Truth Gates.
+
+> **AI can generate claims.
+> Evidence determines truth.**
+
+---
+
+# FINAL MISSION
+
+The mission of the Universal Reality Engine is:
+
+> **Separate Reality from Simulation.
+> Separate Evidence from Claims.
+> Separate Working Systems from Beautiful Demos.
+> And allow only proven truth to receive the VERIFIED status.**
+
+### The Golden Rule:
+
+# **NO PROOF → NO VERIFIED CLAIM**
+
+This makes the system reusable for **JARSOL and any future project**, including AI, blockchain, quantum computing, PQC, Web3, SaaS, security systems, smart contracts, or any other software project.
